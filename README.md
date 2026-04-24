@@ -32,3 +32,7 @@ The release JAR does **not** ship the `elytran_loot_test` datapack. To spawn tes
 ## License
 
 See `LICENSE` (CC0-1.0 per `fabric.mod.json`).
+
+## Art assets
+
+Inventory and armor PNGs are regenerated from the Governance Nexus repo with `bash tools/compose-elytran-item-with-elytra.sh` (ImageMagick; see that repo’s `tools/`). Outer chest uses a custom `layer_1`; inner pass uses vanilla netherite `layer_2` (slightly darkened) as `elytran_breastplate_layer_2.png`.
