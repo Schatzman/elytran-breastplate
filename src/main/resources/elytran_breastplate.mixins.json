@@ -1,0 +1,9 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "elytranbreastplate.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": ["LivingEntityMixin", "PlayerMixin"],
+	"client": ["client.ElytraLayerMixin", "client.HumanoidArmorLayerMixin"],
+	"injectors": { "defaultRequire": 1 }
+}

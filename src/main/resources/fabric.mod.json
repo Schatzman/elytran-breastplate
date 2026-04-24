@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "elytran_breastplate",
+	"version": "${version}",
+	"name": "Elytran Breastplate",
+	"description": "Cheat-tier chestplate + elytra treasure item; requires Flight Affinity.",
+	"authors": ["Governance Nexus"],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["elytranbreastplate.ElytranBreastplateMod"]
+	},
+	"mixins": ["elytran_breastplate.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"flight_affinity": "*"
+	}
+}

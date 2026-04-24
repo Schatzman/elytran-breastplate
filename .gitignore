@@ -1,0 +1,17 @@
+# Gradle
+.gradle/
+build/
+
+# Loom / dev
+run/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+
+# Other
+out/
