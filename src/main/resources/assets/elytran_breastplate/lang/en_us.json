@@ -1,3 +1,5 @@
 {
-	"item.elytran_breastplate.elytran_breastplate": "Elytran Breastplate"
+	"item.elytran_breastplate.elytran_breastplate": "Elytran Breastplate",
+	"item.elytran_breastplate.elytran_breastplate.lore.1": "Chest slot: +100 max health and +10% movement speed; works like an Elytra for flight when worn in the chest slot.",
+	"item.elytran_breastplate.elytran_breastplate.lore.2": "Unbreakable. Fire-resistant (like Netherite)."
 }
