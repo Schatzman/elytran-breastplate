@@ -17,5 +17,8 @@
 		"java": ">=17",
 		"fabric-api": "*",
 		"flight_affinity": "*"
+	},
+	"suggests": {
+		"elytraslot": "*"
 	}
 }

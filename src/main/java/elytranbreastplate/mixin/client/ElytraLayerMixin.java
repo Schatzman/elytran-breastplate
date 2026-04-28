@@ -16,7 +16,8 @@ public class ElytraLayerMixin {
 			at =
 					@At(
 							value = "INVOKE",
-							target = "Lnet/minecraft/world/item/ItemStack;is(Lnet/minecraft/world/item/Item;)Z"))
+							target = "Lnet/minecraft/world/item/ItemStack;is(Lnet/minecraft/world/item/Item;)Z"),
+			require = 0)
 	private boolean elytran$renderWings(ItemStack stack, Item item) {
 		return ElytranBreastplateMod.chestActsAsElytra(stack, item);
 	}
